@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30c42df15fb248c39c4f6085d8a90835" Name="Diagram1">
+        <EntityTypeShape EntityType="MasterFloorModel.City" Width="1.5" PointX="3" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Discount" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Employee" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.House" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.HouseStreet" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.IndexAddress" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.MaterialProduct" Width="1.5" PointX="12.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Materials" Width="1.5" PointX="10" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.MaterialType" Width="1.5" PointX="7.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.MeasureUnitProduction" Width="1.5" PointX="6" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.MeasureUnits" Width="1.5" PointX="3.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Partner" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.PartnerType" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Person" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Position" Width="1.5" PointX="3.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Product" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.ProductType" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.RealizationHistory" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Region" Width="1.5" PointX="0.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.StatusFamily" Width="1.5" PointX="3.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.StatusHealth" Width="1.5" PointX="3.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.StatusPay" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Street" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.StreetCity" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Supplier" Width="1.5" PointX="10" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.SupplierType" Width="1.5" PointX="7.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MasterFloorModel.Supply" Width="1.5" PointX="12.25" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="MasterFloorModel.FK_City_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_StreetCity_City" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Partner_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Employee_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Employee_Position" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Employee_StatusFamily" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Employee_StatusHealth" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_House_IndexAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_HouseStreet_House" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_HouseStreet_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Partner_IndexAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_MaterialProduct_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_MaterialProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Materials_MaterialType" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_MaterialsSupplier_Materials" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_MeasureUnitProduction_MeasureUnits" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_MeasureUnitProduction_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Partner_PartnerType" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Partner_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_RealizationHistory_Partner" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_RealizationHistory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_RealizationHistory_StatusPay" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_StreetCity_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_MaterialsSupplier_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="MasterFloorModel.FK_Supplier_SupplierType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
